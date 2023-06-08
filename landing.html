@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Select books</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <link rel="stylesheet" href="dist/css/landing.css">
+    <body>
+        <nav class="navbar-inverse">
+            <div class="container-fluid">
+                <div id="brandname" class="navbar-header">
+                    <a class="navbar-brand" href="">Library Management System</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li ><a href="#">Display Books</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">E-NewsPaper</a></li>
+                    <li><a href="#">Promotions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <form class="navbar-form navbar-right" action="#">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <a href=""><span class="glyphicon glyphicon-search">Searchbook</span></a>
+                </form>
+            </div>
+        </nav>
+        <!--filter start-->
+        <h4 style="text-align: left;">Filter the books by</h4>
+            <hr>
+            
+            <div class="container">
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" id="searchInput" placeholder="Search by Title">
+                </div>
+                <div class="col-sm-3 form-group">
+                    <input type="text" class="form-control" id="authorSearchInput" placeholder="Search by Author">
+                </div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="searchInput" placeholder="Search by Subject">
+                </div>
+                    <div class="col-sm-4">
+                        <input type="integer" class="form-control" id="searchInput" placeholder="Search by Published Date">
+                    </select>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!--filter end-->
+        <!--Books-->
+        <h1 class="text-center" style="font-weight: bolder;">Recommended Books</h1>
+        <hr>
+        
+        <br>
+        <br>
+        <div class="container-fluid">
+            <div class="col-sm-3">
+                <div class="card" style="width:300px">
+                    <input type="checkbox" class="book-checkbox">
+                    <img class="card-img-top" src="dist/images/tgr.jpg" alt="Card image" style="width:100%" height="400px">
+                    <div class="card-body">
+                      <h4 class="card-title">Think and Grow Rich</h4>
+                      <p class="card-text">Napoleon Hill</p>
+                      <a href="#" class="btn btn-primary">view book</a>
+                    </div>
+                  </div>    
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width:300px">
+                    <input type="checkbox" class="book-checkbox">
+                    <img class="card-img-top" src="dist/images/alchemist.jpg" alt="Card image" style="width:100%" height="400px">
+                    <div class="card-body">
+                      <h4 class="card-title">The Alchemist</h4>
+                      <p class="card-text">Paulo Coelho</p>
+                      <a href="#" class="btn btn-primary">view book</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width:300px">
+                    <input type="checkbox" class="book-checkbox">
+                    <img class="card-img-top" src="dist/images/compoundeffect.jpg" alt="Card image" style="width:100%" height="400px">
+                    <div class="card-body">
+                      <h4 class="card-title">The Compound Effect</h4>
+                      <p class="card-text">Darren Hardy</p>
+                      <a href="#" class="btn btn-primary">view book</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width:300px">
+                    <input type="checkbox" class="book-checkbox">
+                    <img class="card-img-top" src="dist/images/hp.jpg" alt="Card image" style="width:100%" height="400px">
+                    <div class="card-body">
+                      <h4 class="card-title">Harry Potter and the deathly hallows</h4>
+                      <p class="card-text">J K Rowling</p>
+                      <a href="#" class="btn btn-primary">view book</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container-fluid">
+            <div class="col-sm-3">
+                <div class="card" style="width:300px">
+                    <input type="checkbox" class="book-checkbox">
+                    <img class="card-img-top" src="dist/images/psychology-of-money.jpg" alt="Card image" style="width:100%" height="400px">
+                    <div class="card-body">
+                      <h4 class="card-title">Psychology of Money</h4>
+                      <p class="card-text">Morgan Housel</p>
+                      <a href="#" class="btn btn-primary">view book</a>
+                    </div>
+                  </div>    
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width:300px">
+                    <input type="checkbox" class="book-checkbox">
+                    <img class="card-img-top" src="dist/images/rdpd.jpg" alt="Card image" style="width:100%" height="400px">
+                    <div class="card-body">
+                      <h4 class="card-title">Rich Dad Poor Dad</h4>
+                      <p class="card-text">Robert T. Kiyosaki</p>
+                      <a href="#" class="btn btn-primary">view book</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width:300px">
+                    <input type="checkbox" class="book-checkbox">
+                    <img class="card-img-top" src="dist/images/harper.webp" alt="Card image" style="width:100%" height="400px">
+                    <div class="card-body">
+                      <h4 class="card-title">Harper Lee To Kill a Mocking bird</h4>
+                      <p class="card-text">Harper Lee</p>
+                      <a href="#" class="btn btn-primary">view book</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width:300px">
+                    <input type="checkbox" class="book-checkbox">
+                    <img class="card-img-top" src="dist/images/ikigai.jpg" alt="Card image" style="width:100%" height="400px">
+                    <div class="card-body">
+                      <h4 class="card-title">Ikigai</h4>
+                      <p class="card-text">Hector Garcia and Francesc Miralles</p>
+                      <a href="#" class="btn btn-primary">view book</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="container-fluid">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <div class="card" style="width:300px">
+                    <input type="checkbox" class="book-checkbox">
+                    <img class="card-img-top" src="dist/images/The-Hobbit-book-cover.jpg" alt="Card image" style="width:100%" height="400px">
+                    <div class="card-body">
+                      <h4 class="card-title">The Hobbit</h4>
+                      <p class="card-text">J.R.R Tolkinen</p>
+                      <a href="#" class="btn btn-primary">view book</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width:300px">
+                    <input type="checkbox" class="book-checkbox">
+                    <img class="card-img-top" src="dist/images/where-the-sidewalk-ends.webp" alt="Card image" style="width:100%" height="400px">
+                    <div class="card-body">
+                      <h4 class="card-title">Where the Sidewalk Ends</h4>
+                      <p class="card-text">Shel Silverstein</p>
+                      <a href="#" class="btn btn-primary">view book</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <!--pagination-->
+        <div class="pagination-container">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item"><a class="page-link" id="previous-page" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="landing.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="page2.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" id ="next-page" href="page2.html">Next</a></li>
+              </ul>
+            </nav>
+          </div>
+
+        <div id="counter">0 books selected</div>
+        <!----footer-->
+        <hr>
+        <div id="footer">
+            <div class="container">
+                <div class="col-sm-3">
+                    <h3 class="footerhead">Useful Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Terms and Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h3 class="footerhead">Sites</h3>
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h3 class="footerhead">Contact us</h3>
+                    <ul>
+                        <li><a href="#">+91 9191919999</a></li>
+                        <li><a href="#">180-109-109-110</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                        <h3 class="footerhead">Address</h3>
+                        <p id="add"> #111-12/B ABCD street Antartica. </p>
+                        <p id="add"> #321-54/A WXYZ street JAVA. </p>
+                </div>
+            </div>
+            <br>
+            <div>
+                <p style="text-align: center; color: white">&copy; 2023 Copyright <strong>LMS</strong>.All rights Reserved</p>
+            </div>
+        </div>
+
+        <script>
+            // js for search
+            document.getElementById('searchInput').addEventListener('input', function () {
+            var input = this.value.toLowerCase();
+            var cards = document.getElementsByClassName('card');
+            var bookContainer = document.getElementById('bookContainer');
+            for (var i = 0; i < cards.length; i++) {
+            var card = cards[i];
+            var title = card.getElementsByClassName('card-title')[0].innerText.toLowerCase();
+            if (title.includes(input)) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+            }
+            }); 
+            // search code for author
+            document.getElementById('authorSearchInput').addEventListener('input', function () {
+    var input = this.value.toLowerCase();
+    var cards = document.getElementsByClassName('card');
+    var bookContainer = document.getElementById('bookContainer');
+
+    for (var i = 0; i < cards.length; i++) {
+        var card = cards[i];
+        var author = card.getElementsByClassName('card-text')[0].innerText.toLowerCase();
+        if (author.includes(input)) {
+            card.style.display = 'block';
+        } else {
+            card.style.display = 'none';
+        }
+    }
+});
+
+            //
+            $(document).ready(function () {
+                $('.book-checkbox').on('change', function () {
+                    var count = $('.book-checkbox:checked').length;
+                    $('#counter').text(count + ' books selected');
+                });
+            });
+
+            $(document).ready(function () {
+           $('.book-checkbox').on('change', function () {
+            var count = $('.book-checkbox:checked').length;
+           $('#counter').text(count + ' books selected');
+           });
+
+      $('#previous-page').on('click', function (e) {
+        e.preventDefault();
+        // Get the current page number from the URL
+        var currentPage = window.location.pathname.match(/page(\d+)\.html$/);
+        if (currentPage && currentPage[1] > 1) {
+          var previousPage = "page" + (parseInt(currentPage[1]) - 1) + ".html";
+          window.location.href = previousPage;
+        }
+      });
+
+      $('#next-page').on('click', function (e) {
+        e.preventDefault();
+        // Get the current page number from the URL
+        var currentPage = window.location.pathname.match(/page(\d+)\.html$/);
+        if (currentPage) {
+          var nextPage = "page" + (parseInt(currentPage[1]) + 1) + ".html";
+          window.location.href = nextPage;
+        }
+      });
+    });
+    const cardImages = document.querySelectorAll('.card-img-top');
+
+cardImages.forEach(image => {
+    image.addEventListener('click', () => {
+        const checkbox = image.parentElement.querySelector('.book-checkbox');
+        checkbox.checked = !checkbox.checked;
+    });
+});
+      
+        </script>
+    </body>
+</html>
